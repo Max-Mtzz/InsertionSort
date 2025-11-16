@@ -14,7 +14,6 @@ public class InsertionSort {
             }
             arr[j+1]=key;//Insercion del elemento key dentro de la posicion dada de la parte ordenada
         }
-        System.out.println("Arreglo Ordenado:");
-        System.out.println(Arrays.toString(arr));
+        System.out.println("Arreglo Ordenado: "+Arrays.toString(arr));
     }
 }
